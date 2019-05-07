@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\iworb\.nuget\packages\microsoft.net.test.sdk\16.0.2-preview-20190502-01\build\netcoreapp1.0" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="C:\Users\iworb\.nuget\packages\xunit.runner.visualstudio\2.4.1\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\iworb\.nuget\packages\xunit.runner.visualstudio\2.4.1\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\iworb\.nuget\packages\xunit.runner.visualstudio\2.4.1\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="C:\Users\iworb\.Rider2018.3\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\iworb\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\iworb\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_pip-stars-dotnet.157092242.00" t="ExcludeRecursive" />
+    <e p="D:\Projects2\.net\Pip.Services\pip-stars-dotnet" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="pip-stars-dotnet.sln" t="IncludeFlat" />
+      <e p="src" t="Include">
+        <e p="Client" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Class1.cs" t="Include" />
+          <e p="Client.csproj" t="IncludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netstandard2.0" t="Include">
+                <e p="Client.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Interface" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Class1.cs" t="Include" />
+          <e p="Interface.csproj" t="IncludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netstandard2.0" t="Include">
+                <e p="Interface.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Process" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.1" t="Include">
+                <e p="Process.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Process.csproj" t="IncludeRecursive" />
+          <e p="Program.cs" t="Include" />
+          <e p="Properties" t="Include">
+            <e p="launchSettings.json" t="Include" />
+          </e>
+        </e>
+        <e p="Service" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netstandard2.0" t="Include">
+                <e p="Service.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Service.csproj" t="IncludeRecursive" />
+        </e>
+      </e>
+      <e p="test" t="Include">
+        <e p="Client.Test" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Client.Test.csproj" t="IncludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.1" t="Include">
+                <e p="Client.Test.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Service.Test" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.1" t="Include">
+                <e p="Service.Test.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Service.Test.csproj" t="IncludeRecursive" />
+        </e>
+      </e>
+    </e>
+  </component>
+</project>

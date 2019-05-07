@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <AssemblyName>Stars</AssemblyName>
+        <RootNamespace>Stars</RootNamespace>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>Stars</PackageId>
+        <Authors>Aleksandr Koshevierov</Authors>
+        <Description>Stars microservice interface</Description>
+        <Copyright>Conceptual Vision Consulting LLC 2019</Copyright>
+        <PackageProjectUrl>https://github.com/pip-services/pip-services</PackageProjectUrl>
+        <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
+        <PackageIconUrl>https://github.com/pip-services/pip-services/design/Logo.png</PackageIconUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="PipServices3.Commons" Version="3.0.10" />
+    </ItemGroup>
+
+</Project>
