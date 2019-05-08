@@ -83,6 +83,11 @@
             <e p="StarsMongoDbSchema.cs" t="Include" />
           </e>
           <e p="Service.csproj" t="IncludeRecursive" />
+          <e p="Services" t="Include">
+            <e p="Version1" t="Include">
+              <e p="StarsHttpServiceV1.cs" t="Include" />
+            </e>
+          </e>
         </e>
       </e>
       <e p="test" t="Include">
@@ -116,6 +121,11 @@
             <e p="StarsPersistenceFixture.cs" t="Include" />
           </e>
           <e p="Service.Test.csproj" t="IncludeRecursive" />
+          <e p="Services" t="Include">
+            <e p="Version1" t="Include">
+              <e p="StarsHttpServiceV1Test.cs" t="Include" />
+            </e>
+          </e>
         </e>
       </e>
     </e>
