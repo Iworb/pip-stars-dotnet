@@ -17,6 +17,14 @@
         <e p="Client" t="IncludeRecursive">
           <e p="bin" t="ExcludeRecursive" />
           <e p="Client.csproj" t="IncludeRecursive" />
+          <e p="Clients" t="Include">
+            <e p="Version1" t="Include">
+              <e p="IStarsClientV1.cs" t="Include" />
+              <e p="StarsDirectClientV1.cs" t="Include" />
+              <e p="StarsHttpClientV1.cs" t="Include" />
+              <e p="StarsNullClientV1.cs" t="Include" />
+            </e>
+          </e>
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
               <e p="netstandard2.0" t="Include">
@@ -64,6 +72,13 @@
         </e>
         <e p="Service" t="IncludeRecursive">
           <e p="bin" t="ExcludeRecursive" />
+          <e p="build" t="Include">
+            <e p="StarsClientFactory.cs" t="Include" />
+            <e p="StarsServiceFactory.cs" t="Include" />
+          </e>
+          <e p="Container" t="Include">
+            <e p="StarsProcess.cs" t="Include" />
+          </e>
           <e p="Logic" t="Include">
             <e p="StarsCommandSet.cs" t="Include" />
             <e p="StarsController.cs" t="Include" />
@@ -94,6 +109,13 @@
         <e p="Client.Test" t="IncludeRecursive">
           <e p="bin" t="ExcludeRecursive" />
           <e p="Client.Test.csproj" t="IncludeRecursive" />
+          <e p="Clients" t="Include">
+            <e p="Version1" t="Include">
+              <e p="StarsClientV1Fixture.cs" t="Include" />
+              <e p="StarsDirectClientV1Test.cs" t="Include" />
+              <e p="StarsHttpClientV1Test.cs" t="Include" />
+            </e>
+          </e>
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
               <e p="netcoreapp2.1" t="Include">
