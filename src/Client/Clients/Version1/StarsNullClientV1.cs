@@ -16,12 +16,12 @@ namespace Stars.Clients.Version1
             return await Task.FromResult(new StarV1());
         }
 
-        public async Task<StarV1> CreateStarAsync(string correlationId, StarV1 beacon)
+        public async Task<StarV1> CreateStarAsync(string correlationId, StarV1 star)
         {
             return await Task.FromResult(new StarV1());
         }
 
-        public async Task<StarV1> UpdateStarAsync(string correlationId, StarV1 beacon)
+        public async Task<StarV1> UpdateStarAsync(string correlationId, StarV1 star)
         {
             return await Task.FromResult(new StarV1());
         }
