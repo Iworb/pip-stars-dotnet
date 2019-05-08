@@ -36,6 +36,9 @@
             </e>
           </e>
           <e p="Interface.csproj" t="IncludeRecursive" />
+          <e p="Logic" t="Include">
+            <e p="IStarsController.cs" t="Include" />
+          </e>
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
               <e p="netstandard2.0" t="Include">
@@ -61,6 +64,10 @@
         </e>
         <e p="Service" t="IncludeRecursive">
           <e p="bin" t="ExcludeRecursive" />
+          <e p="Logic" t="Include">
+            <e p="StarsCommandSet.cs" t="Include" />
+            <e p="StarsController.cs" t="Include" />
+          </e>
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
               <e p="netstandard2.0" t="Include">
@@ -92,6 +99,9 @@
         </e>
         <e p="Service.Test" t="IncludeRecursive">
           <e p="bin" t="ExcludeRecursive" />
+          <e p="Logic" t="Include">
+            <e p="StarsControllerTest.cs" t="Include" />
+          </e>
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
               <e p="netcoreapp2.1" t="Include">
