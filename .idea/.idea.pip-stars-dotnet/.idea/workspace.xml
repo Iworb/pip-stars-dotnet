@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5688c4e9-7f01-411a-90cb-d44b867880fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pip-stars-dotnet.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.pip-stars-dotnet/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.pip-stars-dotnet/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.pip-stars-dotnet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.pip-stars-dotnet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interface/Class1.cs" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,82 +13,216 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Interface/Class1.cs">
+        <entry file="file://$PROJECT_DIR$/src/Service/Persistence/StarsMongoDbSchema.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="105">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
               <folding>
-                <marker date="1557250866850" expanded="true" signature="34:74" ph="{...}" />
-                <marker date="1557250866850" expanded="true" signature="60:72" ph="{...}" />
+                <marker date="1557331501510" expanded="true" signature="6:104" ph="..." />
+                <marker date="1557331501510" expanded="true" signature="133:916" ph="{...}" />
+                <marker date="1557331501510" expanded="true" signature="223:914" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Client/Class1.cs">
+        <entry file="file://$PROJECT_DIR$/src/Service/Persistence/StarsMongoDbPersistence.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            <state relative-caret-position="210">
+              <caret line="14" column="85" lean-forward="true" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
               <folding>
-                <marker date="1557251021154" expanded="true" signature="30:70" ph="{...}" />
-                <marker date="1557251021154" expanded="true" signature="56:68" ph="{...}" />
+                <marker date="1557331805727" expanded="true" signature="6:124" ph="..." />
+                <marker date="1557331805727" expanded="true" signature="180:1515" ph="{...}" />
+                <marker date="1557331805727" expanded="true" signature="291:1513" ph="{...}" />
+                <marker date="1557331805727" expanded="true" signature="366:378" ph="{...}" />
+                <marker date="1557331805727" expanded="true" signature="465:1251" ph="{...}" />
+                <marker date="1557331805727" expanded="true" signature="1394:1507" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Process/Program.cs">
+        <entry file="file://$PROJECT_DIR$/src/Service/Persistence/StarsFilePersistence.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
               <folding>
-                <marker date="1557251041415" expanded="true" signature="32:173" ph="{...}" />
-                <marker date="1557251041415" expanded="true" signature="52:171" ph="{...}" />
-                <marker date="1557251041415" expanded="true" signature="98:165" ph="{...}" />
+                <marker date="1557331324255" expanded="false" signature="6:98" ph="..." />
+                <marker date="1557331324255" expanded="true" signature="127:605" ph="{...}" />
+                <marker date="1557331324255" expanded="true" signature="192:603" ph="{...}" />
+                <marker date="1557331324255" expanded="true" signature="293:438" ph="{...}" />
+                <marker date="1557331324255" expanded="true" signature="499:597" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Service.Test/Persistence/StarsMemoryPersistenceTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <marker date="1557331962668" expanded="true" signature="6:91" ph="..." />
+                <marker date="1557331962668" expanded="true" signature="120:979" ph="{...}" />
+                <marker date="1557331962668" expanded="true" signature="179:977" ph="{...}" />
+                <marker date="1557331962668" expanded="true" signature="331:581" ph="{...}" />
+                <marker date="1557331962668" expanded="true" signature="612:686" ph="{...}" />
+                <marker date="1557331962668" expanded="true" signature="754:828" ph="{...}" />
+                <marker date="1557331962668" expanded="true" signature="896:970" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Service.Test/Persistence/StarsFilePersistenceTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <folding>
+                <marker date="1557332740825" expanded="false" signature="6:91" ph="..." />
+                <marker date="1557332740825" expanded="true" signature="120:1002" ph="{...}" />
+                <marker date="1557332740825" expanded="true" signature="164:1000" ph="{...}" />
+                <marker date="1557332740825" expanded="true" signature="314:710" ph="{...}" />
+                <marker date="1557332740825" expanded="true" signature="778:852" ph="{...}" />
+                <marker date="1557332740825" expanded="true" signature="920:994" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NuGet.config">
+        <entry file="file://$PROJECT_DIR$/test/Service.Test/Persistence/StarsMongoDbPersistenceTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="83" lean-forward="true" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
+              <folding>
+                <marker date="1557332770443" expanded="true" signature="6:127" ph="..." />
+                <marker date="1557332770443" expanded="true" signature="156:2274" ph="{...}" />
+                <marker date="1557332770443" expanded="true" signature="217:2272" ph="{...}" />
+                <marker date="1557332770443" expanded="true" signature="416:1790" ph="{...}" />
+                <marker date="1557332770443" expanded="true" signature="1111:1780" ph="{...}" />
+                <marker date="1557332770443" expanded="true" signature="1821:1921" ph="{...}" />
+                <marker date="1557332770443" expanded="true" signature="1989:2093" ph="{...}" />
+                <marker date="1557332770443" expanded="true" signature="2161:2265" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Service.Test/Persistence/StarsPersistenceFixture.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2265">
+              <caret line="151" column="34" lean-forward="true" selection-start-line="151" selection-start-column="34" selection-end-line="151" selection-end-column="34" />
+              <folding>
+                <marker date="1557332698295" expanded="true" signature="6:102" ph="..." />
+                <marker date="1557332698295" expanded="true" signature="131:4932" ph="{...}" />
+                <marker date="1557332698295" expanded="true" signature="174:4930" ph="{...}" />
+                <marker date="1557332698295" expanded="true" signature="231:574" ph="{...}" />
+                <marker date="1557332698295" expanded="true" signature="627:970" ph="{...}" />
+                <marker date="1557332698295" expanded="true" signature="1023:1360" ph="{...}" />
+                <marker date="1557332698295" expanded="true" signature="1481:1541" ph="{...}" />
+                <marker date="1557332698295" expanded="true" signature="1592:3104" ph="{...}" />
+                <marker date="1557332698295" expanded="true" signature="3157:4176" ph="{...}" />
+                <marker date="1557332698295" expanded="true" signature="4229:4924" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Service/Persistence/StarsMemoryPersistence.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+              <caret line="31" column="88" selection-start-line="31" selection-start-column="88" selection-end-line="31" selection-end-column="88" />
+              <folding>
+                <marker date="1557331818315" expanded="false" signature="6:174" ph="..." />
+                <marker date="1557331818315" expanded="true" signature="203:1482" ph="{...}" />
+                <marker date="1557331818315" expanded="true" signature="312:1480" ph="{...}" />
+                <marker date="1557331818315" expanded="true" signature="358:411" ph="{...}" />
+                <marker date="1557331818315" expanded="true" signature="488:1238" ph="{...}" />
+                <marker date="1557331818315" expanded="true" signature="792:1227" ph="{...}" />
+                <marker date="1557331818315" expanded="true" signature="819:1213" ph="{...}" />
+                <marker date="1557331818315" expanded="true" signature="1362:1474" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Process/Properties/launchSettings.json">
+        <entry file="file://$PROJECT_DIR$/src/Interface/Data/Version1/StarV1.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="390">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+              <folding>
+                <marker date="1557256304250" expanded="false" signature="6:68" ph="..." />
+                <marker date="1557256304250" expanded="true" signature="99:937" ph="{...}" />
+                <marker date="1557256304250" expanded="true" signature="166:935" ph="{...}" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Roaming/NuGet/NuGet.Config">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>BeaconV1</find>
+      <find>EACON</find>
+      <find>BEACON</find>
+      <find>beacon</find>
+      <find>Beacons</find>
+      <find>beac</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>StarV1</replace>
+      <replace>STAR</replace>
+      <replace>star</replace>
+      <replace>Stars</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///C# Console" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Interface/Data/Version1/StarV1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6DADD22E-0197-42CE-80AA-EFEF99855BE0/f8/e98d3ee7/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Interface/Data/Version1/DeclinationV1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Interface/Data/Version1/StarV1Schema.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Interface/Data/Version1/DeclinationV1Schema.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Service/Persistence/IStarsPersistence.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Service/Persistence/StarsMongoDbPersistence.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Service/Persistence/StarsMemoryPersistence.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Service/Persistence/StarsFilePersistence.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Service/Persistence/StarsMongoDbSchema.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NuGet.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Interface/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Roaming/NuGet/NuGet.Config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Client/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test/Service.Test/Persistence/StarsMongoDbPersistenceTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test/Service.Test/Persistence/StarsMemoryPersistenceTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Process/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test/Service.Test/Persistence/StarsFilePersistenceTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test/Service.Test/Persistence/StarsPersistenceFixture.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -97,6 +234,23 @@
         <option value="$PROJECT_DIR$/test/Client.Test/Program.cs" />
         <option value="$PROJECT_DIR$/test/Service.Test/Program.cs" />
         <option value="$PROJECT_DIR$/src/Process/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/src/Interface/Data/Version1/DeclinationSchemaV1.cs" />
+        <option value="$PROJECT_DIR$/src/Interface/Data/Version1/StarV1.cs" />
+        <option value="$PROJECT_DIR$/src/Interface/Data/Version1/DeclinationV1.cs" />
+        <option value="$PROJECT_DIR$/src/Interface/Data/Version1/DeclinationV1Schema.cs" />
+        <option value="$PROJECT_DIR$/src/Interface/Data/Version1/StarV1Schema.cs" />
+        <option value="$PROJECT_DIR$/src/Service/Persistence/BeaconsFilePersistence.cs" />
+        <option value="$PROJECT_DIR$/src/Service/Persistence/IBeaconsPersistence.cs" />
+        <option value="$PROJECT_DIR$/src/Service/Persistence/IStarsPersistence.cs" />
+        <option value="$PROJECT_DIR$/src/Service/Persistence/BeaconsMemoryPersistence.cs" />
+        <option value="$PROJECT_DIR$/src/Service/Persistence/StarsFilePersistence.cs" />
+        <option value="$PROJECT_DIR$/src/Service/Persistence/StarsMongoDbSchema.cs" />
+        <option value="$PROJECT_DIR$/src/Service/Persistence/StarsMongoDbPersistence.cs" />
+        <option value="$PROJECT_DIR$/src/Service/Persistence/StarsMemoryPersistence.cs" />
+        <option value="$PROJECT_DIR$/test/Service.Test/Persistence/StarsMemoryPersistenceTest.cs" />
+        <option value="$PROJECT_DIR$/test/Service.Test/Persistence/StarsPersistenceFixture.cs" />
+        <option value="$PROJECT_DIR$/test/Service.Test/Persistence/StarsFilePersistenceTest.cs" />
+        <option value="$PROJECT_DIR$/test/Service.Test/Persistence/StarsMongoDbPersistenceTest.cs" />
       </list>
     </option>
   </component>
@@ -114,8 +268,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
-      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -132,14 +284,35 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="pip-stars-dotnet" type="24d0babc:SolutionExplorerModelNode" />
               <item name="src" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Process" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Interface" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="pip-stars-dotnet" type="24d0babc:SolutionExplorerModelNode" />
               <item name="src" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Process" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Properties" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Interface" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Data" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="pip-stars-dotnet" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Interface" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Data" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Version1" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="pip-stars-dotnet" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Service" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="pip-stars-dotnet" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Service" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Persistence" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -157,21 +330,25 @@
               <item name="pip-stars-dotnet" type="24d0babc:SolutionExplorerModelNode" />
               <item name="test" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Service.Test" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Persistence" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
         </subPane>
-        <option name="show-all-files" value="true" />
+        <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pip-samples-beacons-dotnet/step2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -212,12 +389,13 @@
       <option name="presentableId" value="Default" />
       <updated>1557250560125</updated>
       <workItem from="1557250561246" duration="358000" />
-      <workItem from="1557250933088" duration="3241000" />
+      <workItem from="1557250933088" duration="5311000" />
+      <workItem from="1557330724538" duration="2044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3599000" />
+    <option name="totallyTimeSpent" value="7713000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -230,12 +408,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.2553305" />
+      <window_info id="Structure" order="1" sideWeight="0.5005417" side_tool="true" weight="0.2553305" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
@@ -244,21 +424,21 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.32719395" />
-      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Unit Tests" order="12" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="15" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Build" order="15" visible="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Errors In Solution" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,40 +457,11 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Interface/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1557250866850" expanded="true" signature="34:74" ph="{...}" />
-            <marker date="1557250866850" expanded="true" signature="60:72" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding>
-            <marker date="1557251021154" expanded="true" signature="30:70" ph="{...}" />
-            <marker date="1557251021154" expanded="true" signature="56:68" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Client.Test/Program.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Service.Test/Program.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interface/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/src/Client/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/src/Service/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/test/Client.Test/Program.cs" />
+    <entry file="file://$PROJECT_DIR$/test/Service.Test/Program.cs" />
     <entry file="file://$PROJECT_DIR$/src/Process/Properties/launchSettings.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -318,13 +469,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/NuGet/NuGet.Config">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6DADD22E-0197-42CE-80AA-EFEF99855BE0/f8/e98d3ee7/String.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Process/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        <state relative-caret-position="60">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
           <folding>
             <marker date="1557251041415" expanded="true" signature="32:173" ph="{...}" />
             <marker date="1557251041415" expanded="true" signature="52:171" ph="{...}" />
@@ -335,8 +490,217 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NuGet.config">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interface/Data/Version1/DeclinationV1Schema.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding>
+            <marker date="1557256566683" expanded="false" signature="6:72" ph="..." />
+            <marker date="1557256566683" expanded="true" signature="103:426" ph="{...}" />
+            <marker date="1557256566683" expanded="true" signature="157:424" ph="{...}" />
+            <marker date="1557256566683" expanded="true" signature="200:418" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interface/Data/Version1/DeclinationV1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <marker date="1557256364056" expanded="true" signature="66:385" ph="{...}" />
+            <marker date="1557256364056" expanded="true" signature="118:383" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pip-stars-dotnet.sln.DotSettings.user">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/NuGet/NuGet.Config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interface/Data/Version1/StarV1Schema.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <marker date="1557256641024" expanded="false" signature="6:72" ph="..." />
+            <marker date="1557256641024" expanded="true" signature="103:783" ph="{...}" />
+            <marker date="1557256641024" expanded="true" signature="150:781" ph="{...}" />
+            <marker date="1557256641024" expanded="true" signature="186:775" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/Persistence/IBeaconsPersistence.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/Persistence/IStarsPersistence.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <marker date="1557330940692" expanded="true" signature="6:89" ph="..." />
+            <marker date="1557330940692" expanded="true" signature="118:570" ph="{...}" />
+            <marker date="1557330940692" expanded="true" signature="159:568" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/Persistence/StarsMongoDbSchema.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <marker date="1557331501510" expanded="true" signature="6:104" ph="..." />
+            <marker date="1557331501510" expanded="true" signature="133:916" ph="{...}" />
+            <marker date="1557331501510" expanded="true" signature="223:914" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/Persistence/StarsMemoryPersistence.cs">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+          <caret line="31" column="88" selection-start-line="31" selection-start-column="88" selection-end-line="31" selection-end-column="88" />
+          <folding>
+            <marker date="1557331818315" expanded="false" signature="6:174" ph="..." />
+            <marker date="1557331818315" expanded="true" signature="203:1482" ph="{...}" />
+            <marker date="1557331818315" expanded="true" signature="312:1480" ph="{...}" />
+            <marker date="1557331818315" expanded="true" signature="358:411" ph="{...}" />
+            <marker date="1557331818315" expanded="true" signature="488:1238" ph="{...}" />
+            <marker date="1557331818315" expanded="true" signature="792:1227" ph="{...}" />
+            <marker date="1557331818315" expanded="true" signature="819:1213" ph="{...}" />
+            <marker date="1557331818315" expanded="true" signature="1362:1474" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/Persistence/StarsMongoDbPersistence.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="85" lean-forward="true" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
+          <folding>
+            <marker date="1557331805727" expanded="true" signature="6:124" ph="..." />
+            <marker date="1557331805727" expanded="true" signature="180:1515" ph="{...}" />
+            <marker date="1557331805727" expanded="true" signature="291:1513" ph="{...}" />
+            <marker date="1557331805727" expanded="true" signature="366:378" ph="{...}" />
+            <marker date="1557331805727" expanded="true" signature="465:1251" ph="{...}" />
+            <marker date="1557331805727" expanded="true" signature="1394:1507" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/Persistence/StarsFilePersistence.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <marker date="1557331324255" expanded="false" signature="6:98" ph="..." />
+            <marker date="1557331324255" expanded="true" signature="127:605" ph="{...}" />
+            <marker date="1557331324255" expanded="true" signature="192:603" ph="{...}" />
+            <marker date="1557331324255" expanded="true" signature="293:438" ph="{...}" />
+            <marker date="1557331324255" expanded="true" signature="499:597" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interface/Data/Version1/StarV1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <marker date="1557256304250" expanded="false" signature="6:68" ph="..." />
+            <marker date="1557256304250" expanded="true" signature="99:937" ph="{...}" />
+            <marker date="1557256304250" expanded="true" signature="166:935" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Service.Test/Persistence/StarsPersistenceFixture.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2265">
+          <caret line="151" column="34" lean-forward="true" selection-start-line="151" selection-start-column="34" selection-end-line="151" selection-end-column="34" />
+          <folding>
+            <marker date="1557332698295" expanded="true" signature="6:102" ph="..." />
+            <marker date="1557332698295" expanded="true" signature="131:4932" ph="{...}" />
+            <marker date="1557332698295" expanded="true" signature="174:4930" ph="{...}" />
+            <marker date="1557332698295" expanded="true" signature="231:574" ph="{...}" />
+            <marker date="1557332698295" expanded="true" signature="627:970" ph="{...}" />
+            <marker date="1557332698295" expanded="true" signature="1023:1360" ph="{...}" />
+            <marker date="1557332698295" expanded="true" signature="1481:1541" ph="{...}" />
+            <marker date="1557332698295" expanded="true" signature="1592:3104" ph="{...}" />
+            <marker date="1557332698295" expanded="true" signature="3157:4176" ph="{...}" />
+            <marker date="1557332698295" expanded="true" signature="4229:4924" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Service.Test/Persistence/StarsMemoryPersistenceTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <marker date="1557331962668" expanded="true" signature="6:91" ph="..." />
+            <marker date="1557331962668" expanded="true" signature="120:979" ph="{...}" />
+            <marker date="1557331962668" expanded="true" signature="179:977" ph="{...}" />
+            <marker date="1557331962668" expanded="true" signature="331:581" ph="{...}" />
+            <marker date="1557331962668" expanded="true" signature="612:686" ph="{...}" />
+            <marker date="1557331962668" expanded="true" signature="754:828" ph="{...}" />
+            <marker date="1557331962668" expanded="true" signature="896:970" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Service.Test/Persistence/StarsFilePersistenceTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <marker date="1557332740825" expanded="false" signature="6:91" ph="..." />
+            <marker date="1557332740825" expanded="true" signature="120:1002" ph="{...}" />
+            <marker date="1557332740825" expanded="true" signature="164:1000" ph="{...}" />
+            <marker date="1557332740825" expanded="true" signature="314:710" ph="{...}" />
+            <marker date="1557332740825" expanded="true" signature="778:852" ph="{...}" />
+            <marker date="1557332740825" expanded="true" signature="920:994" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Service.Test/Persistence/StarsMongoDbPersistenceTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="83" lean-forward="true" selection-start-line="20" selection-start-column="83" selection-end-line="20" selection-end-column="83" />
+          <folding>
+            <marker date="1557332770443" expanded="true" signature="6:127" ph="..." />
+            <marker date="1557332770443" expanded="true" signature="156:2274" ph="{...}" />
+            <marker date="1557332770443" expanded="true" signature="217:2272" ph="{...}" />
+            <marker date="1557332770443" expanded="true" signature="416:1790" ph="{...}" />
+            <marker date="1557332770443" expanded="true" signature="1111:1780" ph="{...}" />
+            <marker date="1557332770443" expanded="true" signature="1821:1921" ph="{...}" />
+            <marker date="1557332770443" expanded="true" signature="1989:2093" ph="{...}" />
+            <marker date="1557332770443" expanded="true" signature="2161:2265" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

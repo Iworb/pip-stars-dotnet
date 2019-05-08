@@ -16,7 +16,6 @@
       <e p="src" t="Include">
         <e p="Client" t="IncludeRecursive">
           <e p="bin" t="ExcludeRecursive" />
-          <e p="Class1.cs" t="Include" />
           <e p="Client.csproj" t="IncludeRecursive" />
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
@@ -28,7 +27,14 @@
         </e>
         <e p="Interface" t="IncludeRecursive">
           <e p="bin" t="ExcludeRecursive" />
-          <e p="Class1.cs" t="Include" />
+          <e p="Data" t="Include">
+            <e p="Version1" t="Include">
+              <e p="DeclinationV1.cs" t="Include" />
+              <e p="DeclinationV1Schema.cs" t="Include" />
+              <e p="StarV1.cs" t="Include" />
+              <e p="StarV1Schema.cs" t="Include" />
+            </e>
+          </e>
           <e p="Interface.csproj" t="IncludeRecursive" />
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
@@ -62,6 +68,13 @@
               </e>
             </e>
           </e>
+          <e p="Persistence" t="Include">
+            <e p="IStarsPersistence.cs" t="Include" />
+            <e p="StarsFilePersistence.cs" t="Include" />
+            <e p="StarsMemoryPersistence.cs" t="Include" />
+            <e p="StarsMongoDbPersistence.cs" t="Include" />
+            <e p="StarsMongoDbSchema.cs" t="Include" />
+          </e>
           <e p="Service.csproj" t="IncludeRecursive" />
         </e>
       </e>
@@ -85,6 +98,12 @@
                 <e p="Service.Test.AssemblyInfo.cs" t="Include" />
               </e>
             </e>
+          </e>
+          <e p="Persistence" t="Include">
+            <e p="StarsFilePersistenceTest.cs" t="Include" />
+            <e p="StarsMemoryPersistenceTest.cs" t="Include" />
+            <e p="StarsMongoDbPersistenceTest.cs" t="Include" />
+            <e p="StarsPersistenceFixture.cs" t="Include" />
           </e>
           <e p="Service.Test.csproj" t="IncludeRecursive" />
         </e>
