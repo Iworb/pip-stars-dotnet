@@ -1,6 +1,6 @@
 {
-    "name": "stars",
-    "registry": "myregistry:5000",
+    "name": "pip-stars-dotnet",
+    "registry": "iworb",
     "version": "1.0.0",
-    "build": "0"
+    "build": 0
 }
