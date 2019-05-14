@@ -1,30 +1,44 @@
+---
 kind: Deployment
 apiVersion: extensions/v1beta1
 metadata:
-  labels:
-    app: pip-stars-dotnet
   name: pip-stars-dotnet
   namespace: pip
+  labels:
+    app: pip-stars-dotnet
 spec:
   replicas: 1
-  selector:
-    matchLabels:
-      name: pip-stars-dotnet
   template:
     metadata:
       labels:
         app: pip-stars-dotnet
     spec:
       containers:
-      - image: iworb/pip-stars-dotnet:latest
-        name: pip-stars-dotnet
-        ports:
-        - containerPort: 8080
-        livenessProbe:
-          httpGet:
-            path: /heartbeat
-            port: 8080
-          initialDelaySeconds: 120
-          periodSeconds: 60
-          timeoutSeconds: 10
-          failureThreshold: 1
+        - image: iworb/pip-stars-dotnet:latest
+          name: pip-stars-dotnet
+          ports:
+            - containerPort: 8080
+          livenessProbe:
+            httpGet:
+              path: /heartbeat
+              port: 8080
+            initialDelaySeconds: 120
+            periodSeconds: 60
+            timeoutSeconds: 10
+            failureThreshold: 1
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: pip-stars-dotnet
+  labels:
+    app: pip-stars-dotnet
+  namespace: pip
+spec:
+  type: NodePort
+  ports:
+    - port: 8080
+      protocol: TCP
+  selector:
+    app: pip-stars-dotnet
+---
