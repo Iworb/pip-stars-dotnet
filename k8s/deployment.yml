@@ -1,0 +1,32 @@
+kind: Deployment
+apiVersion: extensions/v1beta1
+metadata:
+  labels:
+    app: pip-stars-dotnet
+  name: pip-stars-dotnet
+  namespace: pip
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: pip-stars-dotnet
+  template:
+    metadata:
+      labels:
+        app: pip-stars-dotnet
+    spec:
+      containers:
+      - image: iworb/pip-stars-dotnet:latest
+        name: pip-stars-dotnet
+        ports:
+        - containerPort: 8080
+        livenessProbe:
+          httpGet:
+            path: /heartbeat
+            port: 8080
+          initialDelaySeconds: 120
+          periodSeconds: 60
+          timeoutSeconds: 10
+          failureThreshold: 1
+      imagePullSecrets:
+      - name: regcred
