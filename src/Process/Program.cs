@@ -1,4 +1,5 @@
 ﻿using System;
+using Stars.Container;
 
 namespace Process
 {
@@ -6,7 +7,16 @@ namespace Process
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            try
+            {
+                var task = (new StarsProcess()).RunAsync(args);
+                task.Wait();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                Console.ReadLine();
+            }
         }
     }
 }
